@@ -9,7 +9,7 @@ public class Main {
         ex3();
     }
 
-    public static String ex4(){
+    public static String ex4(int number){
         String numStr = String.valueOf(number);
 
         if (numStr.length() != 6) {
